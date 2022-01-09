@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/barbecue4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    background-color:rgba(240, 248, 255, 0.5);
+    border-radius: 10px;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background-color:rgba(240, 248, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.BBQ{
+    float: left;
+    width: 55px;
+}
+
+.BBQ2{
+    float: right;
+    width:55px;
+}
+
+::placeholder{
+    color: black;
+    opacity: 0.6;
+}
+
+#mulheres{
+    background-image: url(../img/woman.png);   /*/ícone da autora dDara https://www.flaticon.com/authors/ddara/*/
+    background-position: right;
+    padding-right: 30px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+#homens{
+    background-image: url(../img/man.png);   /*/ícone de autoria Smashicons https://www.flaticon.com/authors/smashicons/*/
+    background-position: right;
+    padding-right: 30px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+#criancas{
+    background-image: url(../img/children.png);   /*/ícone de autoria Freepik https://www.flaticon.com/authors/freepik/*/
+    background-position: right;
+    padding-right: 30px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+#duracao{
+    background-image: url(../img/hourglass.png);   /*/ícone de autoria Freepik https://www.flaticon.com/authors/freepik/*/
+    background-position: right;
+    padding-right: 30px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    overflow: hidden;
+    line-height: 55px;
+    padding: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+input:hover{
+    background-color: rgb(199, 167, 145);
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-color: brown;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+button{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(211, 133, 77);
+}
+
+#resultado{
+    padding: 10px;
+    font-weight: bold;
+}
+
+#icons{
+    clear: both;
+    display: table;
+    margin-top: 40px;
+    white-space: nowrap;
+}
+
+.consumable{
+    width: 33.33%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid transparent;
+}
+
+
+/* meat icon from Freepik of flaticon*/
+#meat{
+    
+}
+
+/* beer img from Freepik of flaticon*/
+#beer{
+    
+}
+
+/* soda img from iconixar of flaticon */
+#soda{
+    
+}
+
+.consumable:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.consumable:target{
+    background-color: blue;
+}
